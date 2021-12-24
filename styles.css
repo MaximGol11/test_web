@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.image img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+/* .container {
+    background: url('https://www.gosuslugi.ru/') no-repeat center;
+    position: absolute;
+    top: 82%;
+    display: block;
+    width: 90%;
+    height: 10%;
+    background: red;
+    border: red;
+    z-index: 1000;
+    
+
+} */
+
+a {
+    display: block;
+    background: url('https://www.gosuslugi.ru/') no-repeat center;
+    position: absolute;
+    top: 82%;
+    display: block;
+    width: 90%;
+    height: 10%;
+    background: rgba(255, 0, 0, 0);
+    z-index: 1000;
+}
